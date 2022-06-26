@@ -1,0 +1,88 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.Header {
+  min-width: 1366px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+}
+.Header .container {
+  width: 100%;
+  margin: auto;
+}
+.Header .container .links {
+  display: flex;
+  justify-content: flex-end;
+}
+.Header .container .links .block_link {
+  margin-right: 10px;
+}
+.Header .container .links .block_link .link {
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #412727;
+}
+.Header .container .links .block_link .link:hover {
+  transition: 0.5s;
+  color: #10c9c3;
+}
+
+.Banner {
+  width: 100%;
+  height: 350px;
+  padding-top: 120px;
+  background-color: #3e3e3e;
+}
+.Banner .container .header {
+  width: 50%;
+  margin: auto;
+}
+.Banner .container .header .text {
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+.Banner .container .subheader {
+  width: 50%;
+  margin: auto;
+}
+.Banner .container .subheader .text {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Statistic {
+  width: 100%;
+  height: 240px;
+  padding-top: 100px;
+  background-color: #10c9c3;
+}
+.Statistic .container .column {
+  display: flex;
+}
+.Statistic .container .column .image {
+  width: 38px;
+  height: 34px;
+  margin: auto 0;
+  margin-right: 30px;
+}
+.Statistic .container .column .nums .count {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.Statistic .container .column .nums .text {
+  font-size: 12px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=About.css.map */
