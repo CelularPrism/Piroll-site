@@ -83,6 +83,155 @@
   font-size: 12px;
   color: #ffffff;
   margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.Author {
+  width: 100%;
+  height: 570px;
+  display: flex;
+}
+.Author .image {
+  width: 50%;
+  height: 100%;
+  background-color: #e1e1e1;
+}
+.Author .about {
+  width: 50%;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding-top: 120px;
+}
+.Author .about .container {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.Author .about .container .header {
+  margin-bottom: 40px;
+}
+.Author .about .container .header .text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #171717;
+}
+.Author .about .container .subheader {
+  margin-bottom: 30px;
+}
+.Author .about .container .subheader .text {
+  font-size: 16px;
+  color: #787878;
+  margin-bottom: 30px;
+}
+.Author .about .container .subheader .text:last-child {
+  margin-bottom: 0px;
+}
+.Author .about .signature .image {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.NeedAProject {
+  width: 100%;
+  height: 400px;
+  padding-top: 103px;
+}
+.NeedAProject .container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.NeedAProject .container .header {
+  margin-bottom: 30px;
+}
+.NeedAProject .container .header .text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+.NeedAProject .container .subheader {
+  margin-bottom: 30px;
+}
+.NeedAProject .container .subheader .text {
+  font-size: 16px;
+  color: #787878;
+}
+.NeedAProject .container .button {
+  display: block;
+  width: 180px;
+  height: 54px;
+  line-height: 54px;
+  background-color: #10c9c3;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.NeedAProject .container .button .text {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.Footer {
+  height: 284px;
+  width: 100%;
+  background-color: #141414;
+  padding-top: 100px;
+}
+.Footer .footer_company .name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.Footer .footer_company .rights {
+  font-size: 15px;
+  color: #a6a6a6;
+  margin-bottom: 10px;
+}
+.Footer .footer_company .designer {
+  font-size: 15px;
+  color: #a6a6a6;
+}
+.Footer .footer_contacts .mail {
+  font-size: 15px;
+  text-decoration: none;
+  color: #a6a6a6;
+  margin-bottom: 10px;
+}
+.Footer .footer_contacts .phone {
+  font-size: 15px;
+  color: #a6a6a6;
+}
+.Footer .footer_links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Footer .footer_links .links_col .link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #a6a6a6;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.Footer .footer_links .links_col .link:last-child {
+  margin-bottom: 0px;
+}
+.Footer .footer_social .link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #a6a6a6;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.Footer .footer_social .link:last-child {
+  margin-bottom: 0px;
 }
 
 /*# sourceMappingURL=About.css.map */
