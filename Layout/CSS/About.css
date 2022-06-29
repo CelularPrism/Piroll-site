@@ -4,7 +4,6 @@
 }
 
 .Header {
-  min-width: 1366px;
   height: 100px;
   width: 100%;
   display: flex;
@@ -232,6 +231,126 @@
 }
 .Footer .footer_social .link:last-child {
   margin-bottom: 0px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Banner .container .header .text {
+    font-size: 30px;
+  }
+  .Banner .container .subheader .text {
+    font-size: 14px;
+  }
+  .Statistic .container .column .nums .count {
+    font-size: 14px;
+  }
+  .Statistic .container .column .nums .text {
+    font-size: 10px;
+  }
+  .Author {
+    height: 470px;
+  }
+  .Author .about {
+    padding-top: 60px;
+  }
+  .Author .about .container .header {
+    margin-bottom: 30px;
+  }
+  .Author .about .container .header .text {
+    font-size: 25px;
+  }
+  .Author .about .container .subheader {
+    margin-bottom: 20px;
+  }
+  .Author .about .container .subheader .text {
+    font-size: 14px;
+  }
+  .NeedAProject .container .header .text {
+    font-size: 25px;
+  }
+  .NeedAProject .container .subheader .text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .Banner {
+    height: 250px;
+    padding-top: 80px;
+  }
+  .Banner .container .header .text {
+    font-size: 25px;
+  }
+  .Banner .container .subheader .text {
+    font-size: 10px;
+  }
+  .Statistic {
+    height: 150px;
+    padding-top: 25px;
+  }
+  .Statistic .container .column {
+    margin-bottom: 10px;
+  }
+  .Statistic .container .column .image {
+    width: 27px;
+    height: 25px;
+  }
+  .Statistic .container .column .nums .count {
+    font-size: 12px;
+  }
+  .Statistic .container .column .nums .text {
+    font-size: 10px;
+  }
+  .Author {
+    height: 400px;
+  }
+  .Author .about {
+    padding-top: 40px;
+  }
+  .Author .about .container .header {
+    margin-bottom: 25px;
+  }
+  .Author .about .container .header .text {
+    font-size: 22px;
+  }
+  .Author .about .container .subheader {
+    margin-bottom: 15px;
+  }
+  .Author .about .container .subheader .text {
+    font-size: 12px;
+  }
+  .NeedAProject .container .header .text {
+    font-size: 20px;
+  }
+  .NeedAProject .container .subheader .text {
+    font-size: 12px;
+  }
+  .Footer {
+    height: 184px;
+    padding-top: 50px;
+  }
+  .Footer .container .footer_company .name {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .Footer .container .footer_company .rights {
+    font-size: 10px;
+  }
+  .Footer .container .footer_company .designer {
+    font-size: 10px;
+  }
+  .Footer .container .footer_contacts .mail {
+    font-size: 10px;
+  }
+  .Footer .container .footer_contacts .phone {
+    font-size: 10px;
+  }
+  .Footer .container .footer_links .links_col .link {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .Footer .container .footer_social .link {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
 }
 
 /*# sourceMappingURL=About.css.map */

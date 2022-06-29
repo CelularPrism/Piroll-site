@@ -4,7 +4,6 @@
 }
 
 .Header {
-    min-width: 1366px;
     height: 100px;
 
     width: 100%;
@@ -310,6 +309,207 @@
 
         .link:last-child {
             margin-bottom: 0px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Banner {
+        .container {
+            .header {
+                .text {
+                    font-size: 30px;
+                }
+            }
+
+            .subheader {
+                .text {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .Statistic {
+        .container {
+            .column {
+                .nums {
+                    .count {
+                        font-size: 14px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Author {
+        height: 470px;
+        .about {
+            padding-top: 60px;
+            .container {
+                .header {
+                    margin-bottom: 30px;
+                    .text {
+                        font-size: 25px;
+                    }
+                }
+                .subheader {
+                    margin-bottom: 20px;
+                    .text {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .NeedAProject {
+        .container {
+            .header {
+                .text {
+                    font-size: 25px;
+                }
+            }
+
+            .subheader {
+                .text {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .Banner {
+        height: 250px;
+        padding-top: 80px;
+        .container {
+            .header {
+                .text {
+                    font-size: 25px;
+                }
+            }
+
+            .subheader {
+                .text {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .Statistic {
+        height: 150px;
+        padding-top: 25px;
+        .container {
+            .column {
+                margin-bottom: 10px;
+
+                .image {
+                    width: 27px;
+                    height: 25px;
+                }
+
+                .nums {
+                    .count {
+                        font-size: 12px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Author {
+        height: 400px;
+        .about {
+            padding-top: 40px;
+            .container {
+                .header {
+                    margin-bottom: 25px;
+                    .text {
+                        font-size: 22px;
+                    }
+                }
+                .subheader {
+                    margin-bottom: 15px;
+                    .text {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .NeedAProject {
+        .container {
+            .header {
+                .text {
+                    font-size: 20px;
+                }
+            }
+
+            .subheader {
+                .text {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .Footer {
+        height: 184px;
+        padding-top: 50px;
+
+        .container {
+            .footer_company {
+                .name {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                }
+
+                .rights {
+                    font-size: 10px;
+                }
+
+                .designer {
+                    font-size: 10px;
+                }
+            }
+
+            .footer_contacts {
+                .mail {
+                    font-size: 10px;
+                }
+
+                .phone {
+                    font-size: 10px;
+                }
+            }
+
+            .footer_links {
+                .links_col {
+                    .link {
+                        font-size: 10px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .footer_social {
+                .link {
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                }
+            }
         }
     }
 }
